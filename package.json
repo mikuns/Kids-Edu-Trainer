@@ -1,0 +1,12 @@
+{
+  "name": "heroku-html-app",
+  "version": "1.0.0",
+  "description": "A simple HTML app for Heroku deployment",
+  "scripts": {
+    "start": "echo 'This is a simple HTML app' > index.html && python -m http.server $PORT"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  }
+}
